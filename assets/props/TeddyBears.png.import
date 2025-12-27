@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bxlkt5dacmklm"
-path="res://.godot/imported/ChristmasDecorations.png-7eec93a4ac81c49ac9b200c358096e1d.ctex"
+uid="uid://cj2tutn4lpwgx"
+path="res://.godot/imported/TeddyBears.png-672b10abb39f08d3f18054dd1748898e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/environment/ChristmasDecorations.png"
-dest_files=["res://.godot/imported/ChristmasDecorations.png-7eec93a4ac81c49ac9b200c358096e1d.ctex"]
+source_file="res://assets/props/TeddyBears.png"
+dest_files=["res://.godot/imported/TeddyBears.png-672b10abb39f08d3f18054dd1748898e.ctex"]
 
 [params]
 
