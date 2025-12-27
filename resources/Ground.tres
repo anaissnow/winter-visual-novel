@@ -1,0 +1,18 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dw0stp7aoo0by"]
+
+[ext_resource type="Texture2D" uid="uid://dfyxba4bdqt7d" path="res://assets/props/room gen/WallandGround.png" id="1_gq4k5"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gq4k5"]
+texture = ExtResource("1_gq4k5")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+2:0/0 = 0
+1:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:3/0 = 0
+2:2/0 = 0
+3:3/0 = 0
+
+[resource]
+sources/1 = SubResource("TileSetAtlasSource_gq4k5")
