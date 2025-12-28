@@ -1,0 +1,78 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dhvfde7twsicn"]
+
+[ext_resource type="Texture2D" uid="uid://cbgjbtas4n34u" path="res://assets/props/room gen/WalllMaker.png" id="1_63hcg"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hfh15"]
+texture = ExtResource("1_63hcg")
+0:0/size_in_atlas = Vector2i(2, 2)
+0:0/next_alternative_id = 2
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -3.956892, 16, -3.7770348, 16, 3.057598, -16, 3.2374573)
+0:0/1 = 1
+0:0/1/flip_h = true
+0:0/1/transpose = true
+0:0/1/texture_origin = Vector2i(-19, 0)
+0:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(16, -16, 23.095333, -16.046385, 23.021915, 16.187286, 16, 16)
+2:0/size_in_atlas = Vector2i(2, 2)
+2:0/next_alternative_id = 3
+2:0/0 = 0
+2:0/0/texture_origin = Vector2i(13, 0)
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.4173164, -16, 4.1367493, -16, 4.136753, 16, -3.2374573, 16)
+2:0/1 = 1
+2:0/1/transpose = true
+2:0/1/texture_origin = Vector2i(0, 1)
+2:0/1/physics_layer_0/polygon_0/points = PackedVector2Array(-3.057598, -16, 3.956894, -16, 4.136753, 16, -3.2374573, 16)
+2:0/2 = 2
+2:0/2/flip_h = true
+2:0/2/transpose = true
+2:0/2/texture_origin = Vector2i(6, 1)
+4:0/size_in_atlas = Vector2i(2, 2)
+4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -4.9747505, 16, -4.9747515, 16, 4.9747524, -16, 4.9747524)
+0:2/size_in_atlas = Vector2i(2, 2)
+0:2/next_alternative_id = 3
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -3.956892, 16, -3.7770348, 16, 3.057598, -16, 3.2374573)
+0:2/1 = 1
+0:2/1/transpose = true
+0:2/1/texture_origin = Vector2i(12, 0)
+0:2/1/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -9.172794, -16, -8.992935, 16, -16, 16)
+0:2/2 = 2
+0:2/2/flip_h = true
+0:2/2/transpose = true
+0:2/2/texture_origin = Vector2i(13, 0)
+0:2/2/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, -9.172794, -16, -8.992935, 16, -16, 16)
+4:2/size_in_atlas = Vector2i(2, 2)
+4:2/next_alternative_id = 2
+4:2/0 = 0
+4:2/0/texture_origin = Vector2i(25, -1)
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -4.9747505, 16, -4.9747515, 16, 1.9289856, -16, 2.0305119)
+4:2/1 = 1
+4:2/1/flip_h = true
+4:2/1/transpose = true
+4:2/1/texture_origin = Vector2i(14, -7)
+4:2/1/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -9.3526535, -8.81308, -9.172794, -8.992935, 23.02192, -15.827568, 23.021917)
+0:4/size_in_atlas = Vector2i(2, 2)
+0:4/next_alternative_id = 2
+0:4/0 = 0
+0:4/0/texture_origin = Vector2i(0, 1)
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -3.057598, 16, -3.057598, 16, 3.956892, -16, 3.956892)
+0:4/1 = 1
+0:4/1/flip_h = true
+0:4/1/texture_origin = Vector2i(-7, 13)
+0:4/1/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -3.956892, 16, -4.136751, 16, 3.057598, -16, 3.0575972)
+2:4/size_in_atlas = Vector2i(2, 2)
+2:4/next_alternative_id = 2
+2:4/0 = 0
+2:4/0/texture_origin = Vector2i(12, 0)
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.95689, -16, 3.2374573, -16, 3.2374573, 16, -3.95689, 16)
+2:4/1 = 1
+4:4/size_in_atlas = Vector2i(2, 2)
+4:4/0 = 0
+4:4/0/texture_origin = Vector2i(0, 12)
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -4.061022, 16, -4.061022, 16, 3.0457668, -16, 2.9442415)
+
+[resource]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_hfh15")

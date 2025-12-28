@@ -6,12 +6,18 @@
 texture = ExtResource("1_flx0n")
 2:0/size_in_atlas = Vector2i(2, 2)
 2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9.172794, -16, 12.050533, -16, 12.050533, 16, -8.992937, 16)
 0:3/size_in_atlas = Vector2i(2, 2)
 0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-10.971382, -16, 9.892231, -16, 10.072086, 16, -10.97138, 16)
 2:3/size_in_atlas = Vector2i(2, 2)
 2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9.172794, -16, 12.050533, -16, 12.050533, 16, -8.992937, 16)
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-10.971382, -16, 9.892231, -16, 10.072086, 16, -10.97138, 16)
 
 [resource]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
 sources/2 = SubResource("TileSetAtlasSource_flx0n")
